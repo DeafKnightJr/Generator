@@ -1,0 +1,3 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Social Engine</title></head><body><h1>Social Engine</h1><p id="s">Loading the live Social Engine form…</p><script>
+(async()=>{try{let r=await fetch("https://jnxqrkkgjvushahqthnz.supabase.co/functions/v1/social-engine-ui",{cache:"no-store"});if(!r.ok)throw Error("Backend "+r.status);let h=await r.text();document.open();document.write(h);document.close()}catch(e){document.getElementById("s").textContent="Unable to load Social Engine: "+e.message}})();
+</script></body></html>
